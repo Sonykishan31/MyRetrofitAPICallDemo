@@ -1,9 +1,8 @@
-package com.vendor.sterlingvendorapp.api
+package com.example.retrofitdemo.api
 
-import android.graphics.Movie
 import com.example.retrofitdemo.pojo.ApiResponseDemoApi
 import com.example.retrofitdemo.pojo.MovieListModel
-import com.vendor.sterlingvendorapp.utils.AppConstants
+import com.example.retrofitdemo.utils.AppConstants
 import retrofit2.Call
 import retrofit2.http.GET
 import retrofit2.http.POST

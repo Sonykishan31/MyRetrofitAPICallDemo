@@ -1,4 +1,4 @@
-package com.vendor.sterlingvendorapp.utils
+package com.example.retrofitdemo.utils
 
 
 import android.app.Activity
@@ -304,7 +304,7 @@ object Utility {
 //    fun clearSingleton() {
 //
 //        val singleton = Singleton.getInstance()
-//        com.vendor.sterlingvendorapp.api.log("Before clear : ${singleton.getTestListDetails().size}")
+//        com.example.retrofitdemo.api.log("Before clear : ${singleton.getTestListDetails().size}")
 //        val test = singleton.getTestListDetails()
 //        val packages = singleton.getPackageDetails()
 //        test.clear()
@@ -313,7 +313,7 @@ object Utility {
 //        singleton.imagesList.clear()
 //        singleton.setTestListDetails(test)
 //        singleton.setPackageList(packages)
-//        com.vendor.sterlingvendorapp.api.log("after clear : ${singleton.getTestListDetails().size}")
+//        com.example.retrofitdemo.api.log("after clear : ${singleton.getTestListDetails().size}")
 //    }
 
     fun openDatePicker(context: Context, editText: EditText) {

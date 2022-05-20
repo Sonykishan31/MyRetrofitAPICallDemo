@@ -1,7 +1,7 @@
-package com.vendor.sterlingvendorapp.api
+package com.example.retrofitdemo.api
 
-import com.vendor.sterlingvendorapp.utils.prefrence.PreferenceKeys
-import com.vendor.sterlingvendorapp.utils.prefrence.SharedPreferenceManager
+import com.example.retrofitdemo.utils.prefrence.PreferenceKeys
+import com.example.retrofitdemo.utils.prefrence.SharedPreferenceManager
 
 /**
  * Class contains all the necessary methods to interact with any data set.

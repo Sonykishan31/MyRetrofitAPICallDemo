@@ -1,18 +1,14 @@
-package com.vendor.sterlingvendorapp.utils
+package com.example.retrofitdemo.utils
 
 class AppConstants {
     companion object {
 
-        //local URL
-//           const val BASE_URL = "http://192.168.1.123/sterling/public/api/"
-//        const val BASE_URL = "http://192.168.0.87/sterling/public/api/" // junior pc
 
         //Live server URL
 //        const val BASE_URL = "http://45.116.206.45/api/"
-       const val BASE_URL = "https://www.omdbapi.com"
+        const val BASE_URL = "https://www.omdbapi.com"
 
         //staging
-//        const val BASE_URL = "https://staging3.zealousys.com/sterling_vendor/public/api/"
         const val API_VERSION = "v1"
 
         const val device_type = "android"

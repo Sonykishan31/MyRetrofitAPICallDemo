@@ -8,9 +8,9 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.retrofitdemo.adapter.MovieListAdapter
 import com.example.retrofitdemo.pojo.Search
-import com.vendor.sterlingvendorapp.api.ApiManager
-import com.vendor.sterlingvendorapp.api.callApi
-import com.vendor.sterlingvendorapp.utils.Utility
+import com.example.retrofitdemo.api.ApiManager
+import com.example.retrofitdemo.api.callApi
+import com.example.retrofitdemo.utils.Utility
 
 class MainActivity : AppCompatActivity() {
 

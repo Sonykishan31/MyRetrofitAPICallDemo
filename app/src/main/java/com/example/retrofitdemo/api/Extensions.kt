@@ -1,4 +1,4 @@
-package com.vendor.sterlingvendorapp.api
+package com.example.retrofitdemo.api
 
 import android.app.Activity
 import android.content.Context
@@ -12,7 +12,7 @@ import com.example.retrofitdemo.AppClass.Companion.appInstance
 import com.example.retrofitdemo.R
 
 
-import com.vendor.sterlingvendorapp.utils.Utility.isNetworkConnected
+import com.example.retrofitdemo.utils.Utility.isNetworkConnected
 import org.json.JSONObject
 import retrofit2.Call
 import retrofit2.Callback

@@ -1,9 +1,10 @@
-package com.vendor.sterlingvendorapp.api
+package com.example.retrofitdemo.api
 
 import android.webkit.MimeTypeMap
 import androidx.annotation.NonNull
-import com.vendor.sterlingvendorapp.utils.AppConstants
-import com.vendor.sterlingvendorapp.utils.Utility
+
+import com.example.retrofitdemo.utils.AppConstants
+import com.example.retrofitdemo.utils.Utility
 import okhttp3.Interceptor
 import okhttp3.MediaType.Companion.toMediaTypeOrNull
 import okhttp3.MultipartBody
@@ -18,9 +19,6 @@ import java.io.File
 import java.util.concurrent.TimeUnit
 
 
-/**
- * zealous system
- */
 
 class ApiManager {
 
@@ -28,7 +26,7 @@ class ApiManager {
 
         val instance: ApiRepo
             get() {
-                val retrofit = ApiManager.retrofitInstance
+                val retrofit = retrofitInstance
                 return retrofit.create(ApiRepo::class.java)
             }
 

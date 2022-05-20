@@ -1,4 +1,4 @@
-package com.vendor.sterlingvendorapp.utils.prefrence
+package com.example.retrofitdemo.utils.prefrence
 
 /**
  * Class contains list of keys used to save shared preference via @[SharedPreferenceManager]

@@ -1,4 +1,4 @@
-package com.vendor.sterlingvendorapp.utils
+package com.example.retrofitdemo.utils
 
 import android.content.Context
 import android.content.SharedPreferences
